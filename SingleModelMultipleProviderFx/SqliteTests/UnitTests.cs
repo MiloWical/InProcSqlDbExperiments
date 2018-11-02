@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace SqlCeTests
+namespace SqliteTests
 {
     using Model;
     using TestComponents;

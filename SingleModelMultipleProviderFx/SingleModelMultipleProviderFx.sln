@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestComponents", "TestCompo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlCeTests", "SqlCeTests\SqlCeTests.csproj", "{F45A0E5E-5BC4-4874-B351-F13BDF57FBCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteTests", "SqliteTests\SqliteTests.csproj", "{3C3ACA85-D305-460B-873E-03F703DC40FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F45A0E5E-5BC4-4874-B351-F13BDF57FBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F45A0E5E-5BC4-4874-B351-F13BDF57FBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F45A0E5E-5BC4-4874-B351-F13BDF57FBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3ACA85-D305-460B-873E-03F703DC40FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3ACA85-D305-460B-873E-03F703DC40FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3ACA85-D305-460B-873E-03F703DC40FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3ACA85-D305-460B-873E-03F703DC40FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
