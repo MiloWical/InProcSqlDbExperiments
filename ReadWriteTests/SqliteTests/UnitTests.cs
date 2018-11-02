@@ -62,11 +62,9 @@
                 }
 
                 entities.SaveChanges();
-            }
 
-            using (var entities = new IdEntities())
-            {
                 recordCount = entities.Ids.Count();
+
             }
 
             Assert.AreEqual(recordsToInsert, recordCount);
