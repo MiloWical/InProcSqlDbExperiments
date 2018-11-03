@@ -93,7 +93,9 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Data\Db.sqlite" />
+    <None Include="Data\Db.sqlite">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <EntityDeploy Include="IdModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>IdModel.Designer.cs</LastGenOutput>
