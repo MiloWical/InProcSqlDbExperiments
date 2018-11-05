@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{CE843C49-5535-429B-AD10-F30A0A264854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlCe.Tests", "SqlCe.Tests\SqlCe.Tests.csproj", "{EBC2B3FD-1182-453F-B9F3-D411553DCE47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlite.Tests", "Sqlite.Tests\Sqlite.Tests.csproj", "{CBD7EAF3-4717-47B1-9FBA-6DC6218A2EB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CE843C49-5535-429B-AD10-F30A0A264854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE843C49-5535-429B-AD10-F30A0A264854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE843C49-5535-429B-AD10-F30A0A264854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC2B3FD-1182-453F-B9F3-D411553DCE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC2B3FD-1182-453F-B9F3-D411553DCE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC2B3FD-1182-453F-B9F3-D411553DCE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC2B3FD-1182-453F-B9F3-D411553DCE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD7EAF3-4717-47B1-9FBA-6DC6218A2EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD7EAF3-4717-47B1-9FBA-6DC6218A2EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD7EAF3-4717-47B1-9FBA-6DC6218A2EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD7EAF3-4717-47B1-9FBA-6DC6218A2EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
