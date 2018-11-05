@@ -21,7 +21,7 @@ namespace Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Database=.\\DATA\\DB.MDF");
+                optionsBuilder.UseSqlServer("Database=.\\Data\\Db.mdf");
             }
         }
 
