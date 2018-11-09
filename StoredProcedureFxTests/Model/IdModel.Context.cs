@@ -29,9 +29,9 @@ namespace Model
     
         public virtual DbSet<Id> Ids { get; set; }
     
-        public virtual int MaxRoot()
+        public virtual ObjectResult<Nullable<double>> MaxRoot()
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("MaxRoot");
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<double>>("MaxRoot");
         }
     }
 }

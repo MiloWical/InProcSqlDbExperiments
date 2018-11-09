@@ -89,10 +89,6 @@
     <Content Include="Data\Db.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\Db_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Db.mdf</DependentUpon>
-    </Content>
     <Content Include="PersonModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>PersonModel.Context.cs</LastGenOutput>

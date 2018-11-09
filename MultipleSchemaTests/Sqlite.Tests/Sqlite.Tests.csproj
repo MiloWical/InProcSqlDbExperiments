@@ -95,12 +95,6 @@
     <None Include="Data\Db.sqlite">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Data\PersonModel.csdl">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Data\PersonModel.ssdl">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
     <EntityDeploy Include="TestModel\TestModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
